@@ -1,12 +1,12 @@
-# revision 24534
+# revision 24583
 # category Package
 # catalog-ctan /macros/latex/contrib/hletter
-# catalog-date 2011-11-07 15:09:40 +0100
+# catalog-date 2011-11-09 11:05:43 +0100
 # catalog-license lppl1.2
 # catalog-version 4.1
 Name:		texlive-hletter
 Version:	4.1
-Release:	1
+Release:	2
 Summary:	Flexible letter typesetting with flexible page headings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hletter
@@ -53,7 +53,6 @@ signees. The package works with the merge package.
 %{_texmfdistdir}/tex/latex/hletter/hletter.cls
 %{_texmfdistdir}/tex/latex/hletter/hsetup.sty
 %{_texmfdistdir}/tex/latex/hletter/mergeh.sty
-%doc %{_texmfdistdir}/doc/latex/hletter/Border.pdf
 %doc %{_texmfdistdir}/doc/latex/hletter/Bruennhilde.eps
 %doc %{_texmfdistdir}/doc/latex/hletter/Bruennhilde.jpg
 %doc %{_texmfdistdir}/doc/latex/hletter/Gccs.eps
