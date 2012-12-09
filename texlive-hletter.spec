@@ -67,3 +67,19 @@ signees. The package works with the merge package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.1-3
++ Revision: 752583
+- Rebuild to reduce used resources
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.1-2
++ Revision: 732520
+- texlive-hletter
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.1-1
++ Revision: 729662
+- texlive-hletter
+- texlive-hletter
+
