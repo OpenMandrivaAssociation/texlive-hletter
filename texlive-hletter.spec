@@ -1,12 +1,12 @@
-# revision 24583
+# revision 30002
 # category Package
 # catalog-ctan /macros/latex/contrib/hletter
-# catalog-date 2011-11-09 11:05:43 +0100
+# catalog-date 2013-04-17 11:54:35 +0200
 # catalog-license lppl1.2
-# catalog-version 4.1
+# catalog-version 4.2
 Name:		texlive-hletter
-Version:	4.1
-Release:	3
+Version:	4.2
+Release:	1
 Summary:	Flexible letter typesetting with flexible page headings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hletter
@@ -67,19 +67,3 @@ signees. The package works with the merge package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.1-3
-+ Revision: 752583
-- Rebuild to reduce used resources
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.1-2
-+ Revision: 732520
-- texlive-hletter
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.1-1
-+ Revision: 729662
-- texlive-hletter
-- texlive-hletter
-
