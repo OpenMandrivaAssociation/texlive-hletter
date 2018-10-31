@@ -6,7 +6,7 @@
 # catalog-version 4.2
 Name:		texlive-hletter
 Version:	4.2
-Release:	9
+Release:	10
 Summary:	Flexible letter typesetting with flexible page headings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hletter
