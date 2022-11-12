@@ -1,18 +1,12 @@
-# revision 30002
-# category Package
-# catalog-ctan /macros/latex/contrib/hletter
-# catalog-date 2013-04-17 11:54:35 +0200
-# catalog-license lppl1.2
-# catalog-version 4.2
 Name:		texlive-hletter
-Version:	4.2
-Release:	10
+Version:	30002
+Release:	1
 Summary:	Flexible letter typesetting with flexible page headings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hletter
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hletter.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hletter.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hletter.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hletter.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ provides commands to include a scanned signature and two
 signees. The package works with the merge package.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -60,7 +54,7 @@ signees. The package works with the merge package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
